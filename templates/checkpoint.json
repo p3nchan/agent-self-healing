@@ -1,0 +1,22 @@
+{
+  "id": "2026-03-12-example-task",
+  "task": "Human-readable description of what this task does",
+  "type": "complex",
+  "sessionKey": "agent:main:subagent:abc123",
+  "threadId": "channel:ops-thread-42",
+  "startedAt": "2026-03-12T05:00:00Z",
+  "lastPing": "2026-03-12T05:03:00Z",
+  "currentStep": "Processing step 3 of 5",
+  "contextUsage": 0.35,
+  "status": "running",
+  "needsHumanInput": false,
+  "retryCount": 0,
+  "pulseCount": 0,
+  "steps": [
+    { "name": "Fetch input data", "done": true },
+    { "name": "Validate and clean", "done": true },
+    { "name": "Process and transform", "done": false },
+    { "name": "Generate output", "done": false },
+    { "name": "Deliver results", "done": false }
+  ]
+}
